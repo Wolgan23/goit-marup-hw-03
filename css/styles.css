@@ -175,6 +175,7 @@ img {
 .feateres-item {
   display: inline-block;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .feateres-item-text {
   color: #434455;
@@ -193,6 +194,7 @@ img {
     letter-spacing: 0.02em;
     width: calc((100% - 72px) / 4);
     padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 /* Team 3d cector*/
 .team {
@@ -289,6 +291,7 @@ img {
     font-weight: 500;
     line-height: 1.2;/* 120% */
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-subtext {
