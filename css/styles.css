@@ -189,7 +189,6 @@ width: 264px;
     line-height: 1.5;/* 150% */
     letter-spacing: 0.02em;
     margin: 0;
-    padding-top: 8px;
 
 }
 
@@ -201,6 +200,7 @@ width: 264px;
     letter-spacing: 0.02em;
     width: calc((100% - 72px) / 4);
     margin: 0;
+    margin-bottom: 8px;
 }
 /* Team 3d cector*/
 .team {
