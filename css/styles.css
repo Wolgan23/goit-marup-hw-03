@@ -244,6 +244,7 @@ width: 264px;
     letter-spacing: 0.02em;
     text-align: center;
     margin: 0;
+    margin-bottom: 8px;
 
 }
 
@@ -253,7 +254,6 @@ width: 264px;
     line-height: 1.5;/* 150% */
     letter-spacing: 0.02e;
     text-align: center;
-    padding-top: 8px;
     margin: 0;
 }
 
