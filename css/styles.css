@@ -152,7 +152,7 @@ img {
 
 .feateres-cont {
   display: flex;
-  display: block;
+  display: inline-block;
 }
 .feateres-cont-block {
 width: 264px;
