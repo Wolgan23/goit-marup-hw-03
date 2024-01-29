@@ -147,9 +147,16 @@ img {
 /* Feateres 2nd sector*/
 
 .feateres {
-  padding: 120px 0;
+  padding: 120px 0 120px 0;;
 }
 
+.feateres-cont {
+  display: flex;
+  display: block;
+}
+.feateres-cont-block {
+width: 264px;
+}
   .visually-hidden {
       position: absolute;
       width: 1px;
@@ -167,7 +174,6 @@ img {
 
 .feateres-list {
   display: flex;
-  padding-top: 120px;
   gap: 24px;
   
 }
@@ -182,7 +188,8 @@ img {
     font-size: 16px;
     line-height: 1.5;/* 150% */
     letter-spacing: 0.02em;
-    padding-bottom: 120px;
+    margin: 0;
+    padding-top: 8px;
 
 }
 
@@ -193,8 +200,7 @@ img {
     line-height: 1.2;    /* 120% */
     letter-spacing: 0.02em;
     width: calc((100% - 72px) / 4);
-    padding-bottom: 8px;
-    margin-bottom: 8px;
+    margin: 0;
 }
 /* Team 3d cector*/
 .team {
@@ -208,6 +214,7 @@ img {
 
 .cont-t {
   padding: 32px 0;
+  width: 232px;
 
 
 }
@@ -221,13 +228,12 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-top: 0;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
-
 }
 
 .team-item-name {
@@ -236,9 +242,8 @@ img {
     font-weight: 500;
     line-height: 1.2;/* 120% */
     letter-spacing: 0.02em;
-    padding-top: 32px;
     text-align: center;
-    margin-bottom: 8px;
+    margin: 0;
 
 }
 
@@ -246,10 +251,10 @@ img {
   color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;/* 150% */
-    letter-spacing: 0.02em;
-    padding-bottom: 32px;
+    letter-spacing: 0.02e;
     text-align: center;
-    padding-bottom: 32px;
+    padding-top: 8px;
+    margin: 0;
 }
 
 /* Portfolio 4s sector*/
@@ -262,7 +267,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 
  }
 
@@ -274,14 +278,13 @@ img {
     line-height: 1.11;/* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    margin: 0 0 72px 0;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-bottom: 120px;
   row-gap: 48px;
 }
 
@@ -316,7 +319,6 @@ img {
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-top: 100px;
     display: inline-block;
     margin-bottom: 16px;
     
@@ -328,8 +330,8 @@ img {
   line-height: 1.5;
   color: #F4F4FD;
   letter-spacing: 0.02em;
-  padding-bottom: 100px;
   max-width: 264px;
+  margin: 0;
 }
 .footer-nav {
   gap: 17.5px;
